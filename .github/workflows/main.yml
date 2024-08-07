@@ -12,6 +12,6 @@ jobs:
       - name: Redocly CLI Test
         uses: fluximus-prime/redocly-cli-github-action@v1
         with:
-          args: 'lint spec/'
+          args: 'lint spec/*.yaml'
 
 
